@@ -10,7 +10,7 @@
         "bot",
         "link"
     ],
-    "repository": "https://github.com/elPEPEgg/MiniLink",
+    "repository": "https://github.com/BryDev98/File_Mini_Link",
     "env": {
         "API_ID": {
             "description": "14812855"
