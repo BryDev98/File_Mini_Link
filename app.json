@@ -1,0 +1,50 @@
+{
+    "name": "File_Mini_Link",
+    "logo": "https://telegra.ph//file/03226efb5763203163922.jpg",
+    "description": "Este bot proporciona enlaces de descarga en Telegram",
+    "keywords": [
+        "stream",
+        "download",
+        "telegram",
+        "FileToLink",
+        "bot",
+        "link"
+    ],
+    "repository": "https://github.com/elPEPEgg/MiniLink",
+    "env": {
+        "API_ID": {
+            "description": "14812855"
+        },
+        "API_HASH": {
+            "description": "6a886e99b9699f9f876503fb4ac7df7d"
+        },
+        "BOT_TOKEN": {
+            "description": "5349526620:AAGCVZnwC0WBIWn_sVGToIFU4IeoD46UoXQ"
+        },
+        "APP_NAME": {
+            "description": "File_Mini_Link"
+        },
+        "ARCHIVE_CHANNEL_ID": {
+            "description": "Create a new channel, post anything in the channel, forward the post to @message_ids_bot, now copy paste chat_forward in this field"
+        },
+        "Start_Message": {
+            "description": "The bot will send this message when user send /start",
+            "value": "Hola, envíame cualquier archivo para obtener enlaces de descarga y transmisión"
+        },
+        "Session_String": {
+            "description": "[Optional] Pyrogram Session String, use session_generator.py to generate it, If you don't add it the bot will create a new session every Restarting.",
+            "required": false
+        },
+        "Bot_Channel_UserName": {
+            "description": "[Optional] The UserName of any channel to force users to join it before using the bot, Make sure to make the bot admin in this channel",
+            "required": false
+        }
+    },
+    "stack": "heroku-20",
+    "formation": {
+        "web": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
+}
